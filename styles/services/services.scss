@@ -1,0 +1,75 @@
+@import '../abstract/_vars.scss';
+@import '../components/_header.scss';
+@import '../components/_footer.scss';
+
+.cardsSection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+
+    .cardsDiv {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 250px;
+        height: 400px;
+        background-color: white;
+        border: solid 2px $dark;
+        border-radius: 5%;
+
+        img {
+            width: 150px;
+            height: 180px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            border-color: #808e9b;
+        }
+    }
+}
+
+@media only screen and (max-width: 948px) {
+    .cardsSection {
+    
+        .cardsDiv {
+            width: 70%;
+        
+            p {
+                font-size: 0.8rem;
+                width: 80%;
+                text-align: center;
+            }
+        }
+        
+        .cards {
+            h1 {
+                font-size: 0.7rem;
+            }
+
+            width: 20vw;
+            height: 250px;
+        
+            img {
+                width: 55%;
+                height: 55vw;
+            }
+        }
+    }
+
+    footer {
+        height: 33.4vh;
+    }
+}

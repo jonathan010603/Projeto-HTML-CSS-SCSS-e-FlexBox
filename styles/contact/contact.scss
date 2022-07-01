@@ -1,0 +1,80 @@
+@import '../abstract/_vars.scss';
+@import '../components/_header.scss';
+@import '../components/_footer.scss';
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+
+    form {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1.3rem;
+
+        input {
+            text-align: center;
+            margin-bottom: 3vh;
+            outline: none;
+            &:focus {
+                border: solid 2px black;
+            }
+        }
+
+        textarea {
+            margin-bottom: 3vh;
+            outline: none;
+        }
+
+        fieldset {
+            margin-bottom: 3vh;
+            text-align: center;
+            background-color: white;
+        }
+
+        label {
+            text-align: center;
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 948px) {
+    .formSection {
+        margin-bottom: 3vh;
+    
+        form {
+            width: 55%;
+            font-size: 1.1rem;
+    
+            input {
+                margin-bottom: 3vh;
+            }
+    
+            textarea {
+                height: 70px;
+                margin-bottom: 3vh;
+                outline: none;
+            }
+    
+            fieldset {
+                margin-bottom: 3vh;
+                height: 50px;
+                font-size: 1rem;
+            }
+    
+            label {
+                font-size: 0.8rem;
+            }
+
+            .checkbox {
+                font-size: 1.2rem;
+            }
+            
+        }
+    }
+}

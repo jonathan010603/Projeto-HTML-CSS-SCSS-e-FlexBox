@@ -1,0 +1,120 @@
+@import '../abstract/_vars.scss';
+@import '../components/_header.scss';
+@import '../components/_footer.scss';
+
+@mixin flex-column-center() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    section { margin-bottom: 10vh; }
+    
+    .about {
+        @include flex-column-center;
+            
+        iframe {
+                width: 700px;
+                height: 400px;
+                border: 0;
+        }
+        .text {
+            font-size: $texts;
+            width: 700px;
+            text-align: justify;
+        }
+    }
+    .benefits {
+        @include flex-column-center;
+        
+        div {
+            width: 55%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            ul { font-size: $texts; }
+
+            img {
+                margin-left: 10px;
+                width: 400px;
+                height: 250px;
+            }
+        }
+    }
+    .map {
+        @include flex-column-center;
+        
+        iframe {
+            width: 700px;
+            height: 350px;
+            border: 0;
+        }
+    }
+    table {
+        font-size: $texts;
+        width: 18%;
+        margin-bottom: 10vh;
+        align-self: center;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 948px) {
+    main {
+        section { margin-bottom: 3vh; }
+        
+        .about {
+
+            h1 {font-size: 1.5rem; }
+          
+            iframe {
+                    width: 65%;
+                    height: 50vh;
+            }
+            .text {
+                font-size: 4vw;
+                width: 60vw;
+            }
+        }
+        .benefits {
+
+            h1 {font-size: 1.5rem; }
+            
+            div {
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                
+                ul { font-size: 1.1rem; }
+    
+                img {
+                    width: 80%;
+                    height: 30vh;
+                }
+            }
+        }
+        .map {
+
+            h1 {font-size: 1.5rem; }
+            
+            iframe {
+                width: 55vw;
+                height: 40vw;
+            }
+        }
+        table {
+            font-size: 1.5rem;
+            width: 80%;
+            margin-bottom: 10vh;
+            align-self: center;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

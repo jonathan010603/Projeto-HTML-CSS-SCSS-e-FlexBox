@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap");
+body {
+  margin: 0;
+  background-image: linear-gradient(to bottom, #d2dae2, #bdc6d0, #a8b3be, #94a0ac, #808e9b);
+  font-family: "Karla", sans-serif;
+  color: #1e272e;
+}
+body h1 {
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */

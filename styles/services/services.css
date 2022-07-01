@@ -1,0 +1,150 @@
+header {
+  width: 100%;
+  height: 30vh;
+  background-color: #1e272e;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+header nav {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .headerLogo {
+  width: 200px;
+  height: 150px;
+}
+header nav ul {
+  font-size: 2rem;
+  list-style: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+header nav li, header nav a {
+  text-decoration: none;
+  color: #d2dae2;
+}
+header nav li:hover, header nav a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media only screen and (max-width: 948px) {
+  header {
+    height: 15vh;
+    margin-bottom: 3vh;
+  }
+  header nav {
+    width: 90%;
+    justify-content: space-around;
+  }
+  header nav .headerLogo {
+    width: 100px;
+    height: 80px;
+  }
+  header nav ul {
+    font-size: 0.9rem;
+    width: 60%;
+  }
+  header nav li {
+    margin-right: 20px;
+  }
+  header nav li:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+footer {
+  background-color: #1e272e;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer img {
+  width: 200px;
+  height: 200px;
+}
+footer p {
+  font-size: 1.3rem;
+  color: #d2dae2;
+}
+
+@media only screen and (max-width: 948px) {
+  footer {
+    height: 30vh;
+  }
+  footer img {
+    width: 100px;
+    height: 80px;
+  }
+  footer p {
+    font-size: 0.6rem;
+    color: #d2dae2;
+  }
+}
+.cardsSection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+.cardsSection .cardsDiv {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.cardsSection .cardsDiv p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.cardsSection .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  border: solid 2px #1e272e;
+  border-radius: 5%;
+}
+.cardsSection .cards img {
+  width: 150px;
+  height: 180px;
+}
+.cardsSection .cards:hover {
+  cursor: pointer;
+  border-color: #808e9b;
+}
+
+@media only screen and (max-width: 948px) {
+  .cardsSection .cardsDiv {
+    width: 70%;
+  }
+  .cardsSection .cardsDiv p {
+    font-size: 0.8rem;
+    width: 80%;
+    text-align: center;
+  }
+  .cardsSection .cards {
+    width: 20vw;
+    height: 250px;
+  }
+  .cardsSection .cards h1 {
+    font-size: 0.7rem;
+  }
+  .cardsSection .cards img {
+    width: 55%;
+    height: 55vw;
+  }
+
+  footer {
+    height: 33.4vh;
+  }
+}/*# sourceMappingURL=services.css.map */
