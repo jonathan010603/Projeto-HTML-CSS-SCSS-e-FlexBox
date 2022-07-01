@@ -2,8 +2,6 @@
 Barbershop site built after some Alura courses (HTML, CSS, SASS and FlexBox)
 https://jonathan010603.github.io/project_barbershop/
 
-![image](https://user-images.githubusercontent.com/76676185/176953003-e026f087-8480-4514-b5aa-dc5d1bcf4df1.png)
-![WhatsApp Image 2022-07-01 at 18 42 13](https://user-images.githubusercontent.com/76676185/176953024-8c021503-51cb-47ce-99a0-fef00391ff10.jpeg)
 ![WhatsApp Image 2022-07-01 at 15 41 36 (1)](https://user-images.githubusercontent.com/76676185/176953044-e6ff03d3-d646-4e65-bf5c-b0e821f42526.jpeg)
 
 Initially, I created a layout with Figma, based in the course's layout
