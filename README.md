@@ -1,4 +1,4 @@
-# project_barbershop
+# barbershopStatic
 Barbershop site built after some Alura courses (HTML, CSS, SASS and FlexBox)
 
 Developed on the 2nd sprint of my Compass.UOL Front-end Internship
