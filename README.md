@@ -1,8 +1,6 @@
 # barbershopStatic
 Barbershop site built after some Alura courses (HTML, CSS, SASS and FlexBox)
 
-Developed on the 2nd sprint of my Compass.UOL Front-end Internship
-
 https://jonathan010603.github.io/project_barbershop/
 
 ![WhatsApp Image 2022-07-01 at 15 41 36 (1)](https://user-images.githubusercontent.com/76676185/176953044-e6ff03d3-d646-4e65-bf5c-b0e821f42526.jpeg)
