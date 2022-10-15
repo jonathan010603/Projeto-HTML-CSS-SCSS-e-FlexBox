@@ -1,5 +1,5 @@
 # barbershopStatic
-Barbershop site built after some Alura courses (HTML, CSS, SASS and FlexBox)
+Barbershop site built after some Alura courses on the 1st sprint (HTML, CSS, SASS and FlexBox)
 
 https://jonathan010603.github.io/project_barbershop/
 
