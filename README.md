@@ -19,5 +19,5 @@ After the project was ready, I started to change the styles and test some colors
 
 So I started making it responsive (I think it would be better with mobile-first).
 
-Now it's deployed to GitHub Pages, and you can test it.
+Now it's deployed to GitHub Pages, and you can test it here: https://jonathan010603.github.io/barbershop_compass/
 
